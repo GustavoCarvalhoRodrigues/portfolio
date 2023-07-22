@@ -79,7 +79,7 @@ ul.menu a {
     color: #8943E9;
 }
 
-@media screen and (min-width:780px) {
+@media screen and (min-width:768px) {
 
     body {
         background-color: rgba(128, 128, 128, 0.151);
@@ -107,7 +107,7 @@ ul.menu a {
         color: #333333cf;
         font: oblique 500 18px fantasy;
         text-transform: uppercase;
-        margin: 0px 2px 0px 20px;
+        margin: 10px 2px 0px 20px;
     }
 
     i>img#imagem-menu {
