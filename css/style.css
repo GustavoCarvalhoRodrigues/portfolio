@@ -81,6 +81,10 @@ ul.menu a {
 
 @media screen and (min-width:768px) {
 
+    header {
+        width: 70vw;
+    }
+
     img.imagem-eu {
         width: 58px;
         height: 9vh;
@@ -106,7 +110,7 @@ ul.menu a {
     nav#itens {
         display: flex;
         box-shadow: none;
-        justify-content: center;
+        justify-content: flex-end;
         box-shadow: none;
         width: 100vw;
     }
