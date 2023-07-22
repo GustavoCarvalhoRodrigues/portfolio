@@ -79,7 +79,7 @@ ul.menu a {
     color: #8943E9;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:780px) {
 
     header {
         width: 70vw;
