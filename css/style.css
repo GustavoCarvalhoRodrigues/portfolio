@@ -81,14 +81,21 @@ ul.menu a {
 
 @media screen and (min-width:780px) {
 
+    body {
+        background-color: rgba(128, 128, 128, 0.151);
+    }
+
     header {
-        width: 70vw;
+        width: 100vw;
+        padding-top: 10px;
+        height: 13vh;
+        background-color: white;
     }
 
     img.imagem-eu {
         width: 58px;
         height: 9vh;
-        margin: 10px 10px -16px 5px;
+        margin: 10px 29px -16px 0px;
         position: relative;
         left: 3vw;
         border-radius: 100%;
@@ -100,7 +107,7 @@ ul.menu a {
         color: #333333cf;
         font: oblique 500 18px fantasy;
         text-transform: uppercase;
-        margin: 0px 2px 0px 3vw;
+        margin: 0px 2px 0px 20px;
     }
 
     i>img#imagem-menu {
@@ -109,10 +116,9 @@ ul.menu a {
 
     nav#itens {
         display: flex;
-        box-shadow: none;
         justify-content: flex-end;
         box-shadow: none;
-        min-width: 75vw;
+        max-width: 80vw;
     }
 
     ul.menu {
@@ -123,6 +129,8 @@ ul.menu a {
 
     ul.menu li {
         background-color: transparent;
+        position: relative;
+        left: 10vw;
     }
 
     ul.menu a {
