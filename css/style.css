@@ -94,7 +94,7 @@ ul.menu a {
 
     img.imagem-eu {
         width: 60px;
-        height: 9vh;
+        height: 10vh;
         margin: 10px 29px -16px 0px;
         position: relative;
         top: -5px;
@@ -125,7 +125,7 @@ ul.menu a {
     ul.menu {
         display: inline-flex;
         position: relative;
-        top: -43px;
+        top: -40px;
     }
 
     ul.menu li {
