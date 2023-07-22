@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url("/fonts/SourceSansPro-Black.ttf")
+    format('TTF');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Regular', sans-serif;
+    src: url('../fonts/SourceSansPro-Regular.ttf')
+    format('TTF');
+}
+
+:root {
+   --font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
