@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../portfolio/css/style.css">
+    <script src="js/menu.js" defer></script>
     <title>Portfólio</title>
 </head>
 
 <body onresize="tamanho()">
     <header>
 
-        <img class="imagem-eu" src="imagens/IMG_20220605_180812.png" alt="perfil"> <span class="nome">Gustavo Carvalho </span>
+        <img class="imagem-eu" src="imagens/IMG_20220605_180812.png" alt="perfil"> <span class="nome">Gustavo Carvalho
+        </span>
 
         <i><img id="imagem-menu" onclick="menu()" src="imagens/hamburger.png" alt="menu-hamburguer"></img>
             <nav id="itens">
@@ -25,7 +27,11 @@
                 </ul>
             </nav>
     </header>
-    <script src="js/menu.js"></script>
+    <section id="info-perfil">
+        <h1>Sobre mim</h1>
+        <hr class="info">
+        <p>Olá, meu nome é Gustavo Carvalho Rodrigues tenho 22 anos e busco emprego como desenvolvedor Front-end ou estágio, gosto do meu envolvimento em tecnologia porquê me trouxe um caminho ao qual quero percorrer.</p>
+    </section>
 </body>
 
 </html>
