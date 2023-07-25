@@ -131,8 +131,8 @@ hr.info {
     }
 
     img.imagem-eu {
-        width: 60px;
-        height: 10vh;
+        width: 53px;
+        height: 7vh;
         margin: 10px 29px -16px 0px;
         position: relative;
         top: -5px;
@@ -163,7 +163,7 @@ hr.info {
     ul.menu {
         display: inline-flex;
         position: relative;
-        top: -40px;
+        top: -52px;
         left: 30vw;
     }
 
