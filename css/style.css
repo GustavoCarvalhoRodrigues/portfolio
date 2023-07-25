@@ -63,7 +63,7 @@ ul.menu {
 
 .menu>li {
     background-color: white;
-    padding: 35px 15px 20px 15px;
+    padding: 40px 15px 20px 15px;
 }
 
 hr {
@@ -102,7 +102,7 @@ section#info-perfil {
 
 #info-perfil p {
     text-align: justify;
-    margin: 3px 30px 0px 30px;
+    margin: 6px 30px 0px 30px;
     line-height: 1.7em;
     color: #000000;
     font-family: monospace;
@@ -131,8 +131,8 @@ hr.info {
     }
 
     img.imagem-eu {
-        width: 53px;
-        height: 7vh;
+        width: 60px;
+        height: 8vh;
         margin: 10px 29px -16px 0px;
         position: relative;
         top: -5px;
