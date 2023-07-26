@@ -132,10 +132,10 @@ hr.info {
 
     img.imagem-eu {
         width: 60px;
-        height: 8vh;
+        height: 9vh;
         margin: 10px 29px -16px 0px;
         position: relative;
-        top: -5px;
+        top: 1px;
         left: 3vw;
         border-radius: 100%;
         display: inline-block;
@@ -146,7 +146,7 @@ hr.info {
         color: #333333cf;
         font: oblique 500 16px fantasy;
         text-transform: uppercase;
-        margin: -30px 2px 0px 20px;
+        margin: 0px 2px 0px 20px;
     }
 
     i>img#imagem-menu {
@@ -163,7 +163,7 @@ hr.info {
     ul.menu {
         display: inline-flex;
         position: relative;
-        top: -52px;
+        top: -56px;
         left: 30vw;
     }
 
