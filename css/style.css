@@ -8,7 +8,7 @@
 body,
 html {
     font: oblique 16px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #00000005;
+    background-color: #5f9ea012;
 }
 
 header {
@@ -102,7 +102,7 @@ section#info-perfil {
 
 #info-perfil p {
     text-align: justify;
-    margin: 6px 30px 0px 30px;
+    margin: 20px 30px 0px 30px;
     line-height: 1.7em;
     color: #000000;
     font-family: monospace;
@@ -115,6 +115,36 @@ hr.info {
     border-radius: 20px;
     margin: auto;
     margin-top: 5px;
+}
+
+article#skills {
+    display: flex;
+    position: absolute;
+    top: 30em;
+    background-color: transparent;
+    width: 100vw;
+    height: 30vh;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#skills h1 {
+    text-align: center;
+    font-family: math;
+    color: #000202;
+    font-style: oblique;
+    font-size: 2.4em;
+    letter-spacing: 4px;
+}
+
+#skills img {
+    width: 64px;
+    background-image: linear-gradient(450deg, #a9a9a9bf, transparent);
+    border-radius: 5px;
+    height: 29vh;
+    transform: skew(0deg, -20deg);
+    margin: 0px 0px 0px 10px;
 }
 
 @media screen and (min-width:768px) {
@@ -163,7 +193,7 @@ hr.info {
     ul.menu {
         display: inline-flex;
         position: relative;
-        top: -56px;
+        top: -61px;
         left: 30vw;
     }
 
