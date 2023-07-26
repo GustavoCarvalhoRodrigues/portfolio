@@ -122,7 +122,7 @@ article#skills {
     position: absolute;
     top: 30em;
     background-color: transparent;
-    width: 100vw;
+    max-width: 96vw;
     height: 30vh;
     flex-direction: row;
     flex-wrap: nowrap;
