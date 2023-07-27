@@ -118,14 +118,10 @@ hr.info {
 }
 
 article#skills {
-    display: flex;
     position: absolute;
     top: 30em;
+    width: 100vw;
     background-color: transparent;
-    min-width: 85vw;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    flex-direction: row;
 }
 
 #skills h1 {
@@ -139,10 +135,17 @@ article#skills {
 
 #skills img {
     width: 64px;
-    background-image: linear-gradient(450deg, #a9a9a9bf, transparent);
-    border-radius: 10px;
-    height: 29vh;
-    transform: skew(0deg, 15deg);
+    height: 17vh;
+    display: inline-block;
+    transform: translate(30vw, 0px);
+}
+
+#skills img:hover {
+    background-color: palegoldenrod;
+    border-radius: 2px;
+    border: 5px dashed whitesmoke;
+    transition-duration: 1s;
+    box-sizing: border-box;
 }
 
 @media screen and (min-width:768px) {
