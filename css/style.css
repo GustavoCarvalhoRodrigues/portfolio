@@ -105,8 +105,8 @@ section#info-perfil {
 
 #info-perfil p {
     text-align: justify;
-    margin: 5vw 8vw 0px 18vw;
-    line-height: 2em;
+    margin: 5vw 6vw 0px 18vw;
+    line-height: 2.5em;
     color: white;
     font-family: monospace;
     font-weight: normal;
@@ -242,7 +242,7 @@ article#skills {
 
     #info-perfil p {
         text-align: left;
-        margin: 1vw 24vw 0px 24vw;
+        margin: 3vw 20vw 0px;
         line-height: 3em;
         color: white;
         font-family: monospace;
