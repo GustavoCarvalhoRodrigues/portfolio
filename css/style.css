@@ -163,29 +163,31 @@ article#skills {
     header {
         width: 100vw;
         padding-top: 10px;
-        height: 13vh;
+        height: 11vh;
         position: fixed;
         background-color: white;
         z-index: 1;
     }
 
     img.imagem-eu {
-        width: 60px;
-        height: 9vh;
-        margin: 10px 29px -16px 0px;
-        position: relative;
-        top: 1px;
-        left: 3vw;
+        width: 53px;
+        height: 8vh;
+        margin: 15px 10px -16px 22px;
         border-radius: 100%;
-        display: inline-block;
+        position: relative;
+        left: 5vw;
+        top: -12px;
     }
 
     span.nome {
+        display: inline-block;
         text-decoration: none;
         color: #333333cf;
         font: oblique 500 16px fantasy;
         text-transform: uppercase;
-        margin: 0px 2px 0px 20px;
+        position: relative;
+        left: 5vw;
+        bottom: 10px;
     }
 
     i>img#imagem-menu {
@@ -202,7 +204,7 @@ article#skills {
     ul.menu {
         display: inline-flex;
         position: relative;
-        top: -61px;
+        top: -69px;
         left: 30vw;
     }
 
@@ -233,14 +235,14 @@ article#skills {
 
     section#info-perfil {
         position: absolute;
-        top: 13em;
+        top: 8em;
         min-width: 60vw;
         z-index: 0;
     }
 
     #info-perfil p {
         text-align: left;
-        margin: 1vw 10vw 0px 24vw;
+        margin: 1vw 24vw 0px 24vw;
         line-height: 3em;
         color: white;
         font-family: monospace;
@@ -248,7 +250,8 @@ article#skills {
     }
 
     article#skills {
-        position: absolute;
+        position: relative;
+        top: 450px;
         left: 14vw;
         display: flex;
         width: 70vw;
