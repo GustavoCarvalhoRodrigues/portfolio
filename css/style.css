@@ -105,7 +105,7 @@ section#info-perfil {
 
 #info-perfil p {
     text-align: justify;
-    margin: 5vw 6vw 0px 18vw;
+    margin: 5vw 6vw 0px 8vw;
     line-height: 2.5em;
     color: white;
     font-family: monospace;
@@ -119,6 +119,7 @@ hr.info {
     margin: auto;
     margin-top: 5px;
 }
+
 
 article#skills {
     position: absolute;
@@ -247,6 +248,43 @@ article#skills {
         color: white;
         font-family: monospace;
         font-weight: normal;
+    }
+
+    aside {
+        position: absolute;
+        width: 4em;
+        border-radius: 3px;
+        margin-top: 284px;
+        background-color: ghostwhite;
+        height: 35vh;
+        z-index: 0;
+        box-shadow: 4px 2px 9px #00000024;
+    }
+
+    aside>ol.contatos {
+        display: flex;
+        flex-direction: column;
+        height: 34vh;
+        list-style: none;
+        align-items: center;
+        align-content: space-around;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .contatos li:hover {
+        background-color: rgba(0, 0, 0, 0.041);
+        transition-duration: 0.6s;
+        border-radius: 5px;
+        padding: 8px;
+    }
+
+    ol.contatos>li>a {
+        text-decoration: none;
+    }
+
+    .contatos a>img {
+        width: 32px;
     }
 
     article#skills {
