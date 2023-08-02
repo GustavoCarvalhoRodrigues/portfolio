@@ -155,6 +155,43 @@ article#skills {
     box-sizing: border-box;
 }
 
+section#projetos {
+    position: relative;
+    top: 50em;
+    height: auto;
+}
+
+#projetos hr {
+    width: 5vw;
+    border: 2px solid salmon;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#projetos h1, p {
+    text-align: center;
+    color: white;
+}
+
+#projetos h1 {
+    font-family: math;
+    color: white;
+    font-style: italic;
+    font-size: 2.1em;
+    letter-spacing: 10px;
+}
+
+#projetos p {
+    line-height: 2.5em;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+b {
+    text-decoration: underline;
+    text-decoration-color: coral;
+}
 @media screen and (min-width:768px) {
 
     body {
