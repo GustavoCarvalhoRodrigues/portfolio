@@ -157,7 +157,7 @@ article#skills {
 
 section#projetos {
     position: relative;
-    top: 50em;
+    top: 47em;
     height: auto;
 }
 
@@ -169,7 +169,8 @@ section#projetos {
     margin-top: 5px;
 }
 
-#projetos h1, p {
+#projetos h1,
+p {
     text-align: center;
     color: white;
 }
@@ -191,6 +192,46 @@ section#projetos {
 b {
     text-decoration: underline;
     text-decoration-color: coral;
+}
+
+.btp {
+    display: none;
+}
+
+picture.prj {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prj img {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.prj h2 {
+    color: white;
+    font-family: math;
+    margin-top: 10px;
+}
+
+button.prjs {
+    padding: 10px;
+    border-radius: 2px;
+    width: 120px;
+    background-color: transparent;
+    border: 2px groove coral;
+    margin-bottom: 30px;
+}
+
+.prjs:hover {
+    background-color: coral;
+}
+
+.prjs a {
+    text-decoration: none;
+    color: white;
 }
 @media screen and (min-width:768px) {
 
@@ -352,6 +393,32 @@ b {
         transition-duration: 1s;
     }
 
+    button.btp {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid tomato;
+        cursor: pointer;
+        position: relative;
+        top: 55em;
+    }
+
+    .btp:hover {
+        color: black;
+        background-color: white;
+        border: 1px solid transparent;
+    }
+
+    section#projetos p {
+        margin-top: 30px;
+    }
+
+    #projetos {
+        display: none;
+    }
 }
 
 ::-webkit-scrollbar {
