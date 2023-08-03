@@ -233,6 +233,7 @@ button.prjs {
     text-decoration: none;
     color: white;
 }
+
 @media screen and (min-width:768px) {
 
     body {
@@ -418,6 +419,10 @@ button.prjs {
 
     #projetos {
         display: none;
+    }
+
+    .prj img {
+        width: 60vw;
     }
 }
 
