@@ -422,8 +422,20 @@ button.prjs {
     }
 
     .prj img {
-        width: 60vw;
+        width: 50vw;
     }
+
+    .prj img:hover {
+        transform: scale(1.1) translate(0px, -6px);
+        box-shadow: 0px 0px 15px #0000002b;
+        transition-duration: 1s;
+    }
+
+    #projetos>picture.prj>p>b {
+        text-decoration: none;
+        color: coral;
+    }
+
 }
 
 ::-webkit-scrollbar {
