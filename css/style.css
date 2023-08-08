@@ -219,7 +219,7 @@ picture.prj {
 button.prjs {
     padding: 10px;
     border-radius: 2px;
-    width: 120px;
+    width: 127px;
     background-color: transparent;
     border: 2px groove coral;
     margin-bottom: 30px;
@@ -232,6 +232,28 @@ button.prjs {
 .prjs a {
     text-decoration: none;
     color: white;
+}
+
+footer {
+    background-color: whitesmoke;
+    min-height: 40vh;
+    position: relative;
+    top: 47em;
+}
+
+footer h4 {
+    position: absolute;
+    top: 30px;
+    left: 43px;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    margin: 5px;
 }
 
 @media screen and (min-width:768px) {
@@ -303,7 +325,7 @@ button.prjs {
     }
 
     .menu a:hover {
-        transition-duration: 2s;
+        transition-duration: 1s;
         transform: translate(5px, -5px);
         display: block;
         text-decoration-line: overline;
@@ -366,6 +388,10 @@ button.prjs {
         width: 32px;
     }
 
+    .contatos img:hover {
+        transform: scale(1.1);
+    }
+
     article#skills {
         position: relative;
         top: 33em;
@@ -419,6 +445,27 @@ button.prjs {
 
     #projetos {
         display: none;
+        animation-name: projects;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes projects {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    picture.prj {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
     .prj img {
