@@ -120,6 +120,9 @@ hr.info {
     margin-top: 5px;
 }
 
+.curriculo {
+    display: none;
+}
 
 article#skills {
     position: absolute;
@@ -349,6 +352,28 @@ footer ul li {
         color: white;
         font-family: monospace;
         font-weight: normal;
+    }
+
+    button.curriculo {
+        width: 100px;
+        display: block;
+        margin: auto;
+        padding: 10px;
+        background-color: black;
+        border-radius: 5px;
+    }
+
+    .curriculo:hover {
+        background-color: coral;
+        border: transparent;
+        transition-duration: 0.6s;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.555);
+        transform: scale(1.1);
+    }
+
+    .curriculo a {
+        text-decoration: none;
+        color: white;
     }
 
     aside {
