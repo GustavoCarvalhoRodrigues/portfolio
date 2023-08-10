@@ -423,7 +423,7 @@ footer ul li {
     button.btp {
         display: block;
         margin: auto;
-        margin-top: 20px;
+        margin-top: -151px;
         padding: 10px;
         background-color: transparent;
         color: white;
@@ -462,10 +462,8 @@ footer ul li {
 
     picture.prj {
         display: flex;
-        flex-wrap: wrap;
-        align-items: baseline;
-        flex-direction: row;
-        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
     }
 
     .prj img {
