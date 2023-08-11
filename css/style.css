@@ -434,7 +434,7 @@ footer ul li {
         left: 0vw;
         display: flex;
         width: 100vw;
-        min-height: 266px;
+        height: 266px;
         flex-direction: row;
         background-color: orange;
         align-items: center;
