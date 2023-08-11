@@ -97,7 +97,7 @@ section#info-perfil {
 #info-perfil h1 {
     text-align: center;
     font-family: math;
-    color: white;
+    color: black;
     font-style: italic;
     font-size: 2.4em;
     letter-spacing: 5px;
@@ -107,7 +107,7 @@ section#info-perfil {
     text-align: justify;
     margin: 5vw 6vw 0px 8vw;
     line-height: 2.5em;
-    color: white;
+    color: black;
     font-family: monospace;
     font-weight: normal;
 }
@@ -130,7 +130,7 @@ article#skills {
     top: 34em;
     left: 20vw;
     width: 80vw;
-    background-color: transparent;
+    background-color: white;
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
@@ -139,7 +139,7 @@ article#skills {
 #skills h1 {
     text-align: center;
     font-family: math;
-    color: white;
+    color: black;
     font-style: italic;
     font-size: 2.1em;
     letter-spacing: 5px;
@@ -152,9 +152,9 @@ article#skills {
 }
 
 #skills img:hover {
-    background-color: darkslategrey;
+    background-color: tomato;
     border-radius: 2px;
-    border: 5px dashed dimgrey;
+    border: 5px dashed white;
     box-sizing: border-box;
 }
 
@@ -175,12 +175,12 @@ section#projetos {
 #projetos h1,
 p {
     text-align: center;
-    color: white;
+    color: black;
 }
 
 #projetos h1 {
     font-family: math;
-    color: white;
+    color: black;
     font-style: italic;
     font-size: 2.1em;
     letter-spacing: 10px;
@@ -188,6 +188,8 @@ p {
 
 #projetos p {
     line-height: 2.5em;
+    text-align: start;
+    margin: 20px 1em 0px 8vw;
     font-family: monospace;
     font-weight: normal;
 }
@@ -214,27 +216,28 @@ picture.prj {
 }
 
 .prj h2 {
-    color: white;
+    color: black;
     font-family: math;
     margin-top: 10px;
 }
 
 button.prjs {
     padding: 10px;
-    border-radius: 2px;
-    width: 127px;
-    background-color: transparent;
-    border: 2px groove coral;
+    border-radius: 5px;
+    width: 113px;
+    background-color: coral;
     margin-bottom: 30px;
+    border: none;
 }
 
 .prjs:hover {
-    background-color: coral;
+    transition-duration: 0.6s;
+    transform: scale(1.1);
 }
 
 .prjs a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 footer {
@@ -275,8 +278,8 @@ footer ul li {
     }
 
     img.imagem-eu {
-        width: 53px;
-        height: 8vh;
+        min-width: 71px;
+        height: 55px;
         margin: 15px 10px -16px 22px;
         border-radius: 100%;
         position: relative;
@@ -365,16 +368,16 @@ footer ul li {
         width: 100px;
         display: block;
         margin: auto;
+        border: none;
         padding: 10px;
         background-color: black;
-        border-radius: 5px;
+        border-radius: 10px;
     }
 
     .curriculo:hover {
         background-color: coral;
-        border: transparent;
         transition-duration: 0.6s;
-        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.555);
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.555);
         transform: scale(1.1);
     }
 
@@ -445,7 +448,8 @@ footer ul li {
 
     #skills img {
         width: 68px;
-        background-color: #00000030;
+        height: 120px;
+        background-color: #00000014;
         border-radius: 5px;
         transform: translate(0px, 0px);
     }
@@ -462,22 +466,19 @@ footer ul li {
         margin: auto;
         margin-top: -151px;
         padding: 10px;
-        background-color: transparent;
-        color: white;
-        border: 1px solid tomato;
+        background-color: orange;
+        color: black;
+        border-color: snow;
+        border-radius: 3px;
+        border: none;
         cursor: pointer;
         position: relative;
         top: 55em;
     }
 
-    .btp:hover {
-        color: black;
-        background-color: white;
-        border: 1px solid transparent;
-    }
-
     section#projetos p {
         margin-top: 30px;
+        text-align: center;
     }
 
     #projetos {

@@ -11,11 +11,12 @@
 </head>
 
 <body onresize="tamanho()">
+    <!-- Cabeçalho -->
     <header>
-
+        <!-- Imagem perfil -->
         <img class="imagem-eu" src="imagens/IMG_20220605_180812.png" alt="perfil"> <span class="nome">Gustavo Carvalho
         </span>
-
+        <!-- menu -->
         <i><img id="imagem-menu" onclick="menu()" src="imagens/hamburger.png" alt="menu-hamburguer"></img>
             <nav id="itens">
                 <ul class="menu">
@@ -28,13 +29,16 @@
                 </ul>
             </nav>
     </header>
+    <!-- Breve descrição -->
     <section id="info-perfil">
         <h1>Sobre mim</h1>
         <hr class="info">
         <p>Olá, meu nome é Gustavo Carvalho Rodrigues tenho 22 anos e busco emprego como desenvolvedor Front-end ou
             estágio, gosto do meu envolvimento em tecnologia porquê me trouxe um caminho ao qual quero percorrer.</p>
-           <button class="curriculo"><a href="Currículo - Gustavo C. Rodrigues .pdf" target="_blank" download="Currículo - Gustavo C. Rodrigues">Currículo</a></button>
+        <button class="curriculo"><a href="Currículo - Gustavo C. Rodrigues .pdf" target="_blank"
+                download="c:\Users\gusta\OneDrive\Área de Trabalho\currículo\Currículo - Gustavo C. Rodrigues">Currículo</a></button>
     </section>
+    <!-- Contatos -->
     <aside>
         <ol class="contatos">
             <li><a href="https://github.com/GustavoCarvalhoRodrigues" target="_blank"><img src="imagens/github.png"
@@ -43,27 +47,33 @@
                         src="imagens/sinal-do-linkedin.png" alt="Linkedin"></a></li>
         </ol>
     </aside>
+    <!-- Minhas tecnologias em proeficiência -->
     <article id="skills">
         <h1>Tecnologias</h1>
         <img src="imagens/icons8-html-5.svg" alt="HTML">
         <img src="imagens/icons8-css3.svg" alt="CSS">
         <img src="imagens/icons8-javascript.svg" alt="JS">
     </article>
+    <!-- Botão com evento mostrando seção projetos -->
     <button class="btp" onclick="conteudo()">Leia mais...</button>
+    <!-- Projetos -->
     <section id="projetos">
         <h1>Projetos</h1>
         <hr>
         <p>Aqui estão alguns projetos que foram realizados durante o meu curso de <b>html</b>, <b>css</b> e
             <b>javascript</b> do professor Guanabara.
         </p>
+        <!-- Imagem do primeiro projeto -->
         <picture class="prj">
             <img src="imagens/Cordel.jpeg" alt="Poema">
             <h2>Projeto Cordel</h2>
-            <p>É um poema cujo o mais destacado é o efeito parallax. 
-            <br> Hard-skills:<b>HTML, CSS</b></p>
+            <p>É um poema cujo o mais destacado é o efeito parallax.
+                <br> Hard-skills:<b>HTML, CSS</b>
+            </p>
             <button class="prjs"><a href="https://gustavocarvalhorodrigues.github.io/Projeto-Cordel/"
                     target="_blank">Cordel</a></button>
         </picture>
+        <!-- Imagem do segundo projeto -->
         <picture class="prj">
             <img src="imagens/Redes-sociais.jpeg" alt="redes-sociais">
             <h2>Projeto Redes Sociais</h2>
@@ -71,15 +81,17 @@
             <button class="prjs"><a href="https://gustavocarvalhorodrigues.github.io/Projeto-redes-sociais/"
                     target="_blank">Redes Sociais</a></button>
         </picture>
-
+        <!-- Imagem do terceiro projeto -->
         <picture class="prj">
             <img src="imagens/Marvel.jpeg" alt="marvel">
             <h2>Projeto Marvel</h2>
-             <p>É uma seleção de personagens da marvel, podendo apenas o player 1 selecionar. <br> Hard-skills:<b>HTML, CSS, Javascript</b></p>
+            <p>É uma seleção de personagens da marvel, podendo apenas o player 1 selecionar. <br> Hard-skills:<b>HTML,
+                    CSS, Javascript</b></p>
             <button class="prjs"><a href="https://gustavocarvalhorodrigues.github.io/Marvel-Project-main/"
                     target="_blank">Marvel</a></button>
         </picture>
     </section>
+    <!-- Rodapé -->
     <footer>
         <h4>Social</h4>
         <ul>
