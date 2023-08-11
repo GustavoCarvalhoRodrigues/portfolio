@@ -272,7 +272,7 @@ footer ul li {
     header {
         width: 100vw;
         padding-top: 10px;
-        min-height: 12vh;
+        min-height: 70px;
         position: fixed;
         background-color: white;
         z-index: 1;
