@@ -279,8 +279,8 @@ footer ul li {
     }
 
     img.imagem-eu {
-        min-width: 71px;
-        height: 55px;
+        min-width: 59px;
+        height: 50px;
         margin: 15px 10px -16px 22px;
         border-radius: 100%;
         position: relative;
@@ -389,19 +389,19 @@ footer ul li {
 
     aside {
         position: absolute;
+        top: 14em;
         width: 4em;
         border-radius: 3px;
-        margin-top: 284px;
         background-color: white;
-        height: 35vh;
-        z-index: 0;
+        height: 16em;
+        z-index: 1;
         box-shadow: 21px -16px 72px inset orange;
     }
 
     aside>ol.contatos {
         display: flex;
         flex-direction: column;
-        height: 34vh;
+        height: 16em;
         list-style: none;
         align-items: center;
         align-content: space-around;
@@ -506,7 +506,7 @@ footer ul li {
     }
 
     .prj img {
-        width: 50vw;
+        min-width: 40vw;
     }
 
     .prj img:hover {
