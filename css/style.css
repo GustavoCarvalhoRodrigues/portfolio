@@ -8,7 +8,7 @@
 body,
 html {
     font: oblique 16px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: dimgrey;
+    background-color: white;
 }
 
 header {
@@ -35,7 +35,7 @@ span.nome {
 }
 
 .nome:hover {
-    color: #8943E9;
+    color: orange;
     cursor: pointer;
 }
 
@@ -84,7 +84,7 @@ ul.menu a {
 }
 
 .menu a:hover {
-    color: #8943E9;
+    color: orange;
 }
 
 section#info-perfil {
@@ -262,7 +262,8 @@ footer ul li {
 @media screen and (min-width:768px) {
 
     body {
-        background-color: rgba(128, 128, 128, 0.151);
+        background-color: white;
+        height: 100vh;
     }
 
     header {
@@ -270,7 +271,6 @@ footer ul li {
         padding-top: 10px;
         height: 11vh;
         position: fixed;
-        background-color: white;
         z-index: 1;
     }
 
@@ -343,13 +343,20 @@ footer ul li {
         top: 8em;
         min-width: 60vw;
         z-index: 0;
+        background-color: white;
+        height: 60vh;
+    }
+
+    #info-perfil h1 {
+        color: black;
+        margin-top: 1em;
     }
 
     #info-perfil p {
         text-align: left;
-        margin: 3vw 20vw 0px;
+        margin: 3vw 19vw 0px;
         line-height: 3em;
-        color: white;
+        color: black;
         font-family: monospace;
         font-weight: normal;
     }
@@ -381,10 +388,10 @@ footer ul li {
         width: 4em;
         border-radius: 3px;
         margin-top: 284px;
-        background-color: ghostwhite;
+        background-color: white;
         height: 35vh;
         z-index: 0;
-        box-shadow: 4px 2px 9px #00000024;
+        box-shadow: 21px -16px 72px inset orange;
     }
 
     aside>ol.contatos {
@@ -399,8 +406,8 @@ footer ul li {
     }
 
     .contatos li a:hover {
-        background-color: lightgray;
-        transition-duration: 0.4s;
+        background-color: #ffa50080;
+        transition-duration: 0.6s;
         border-radius: 5px;
         padding: 25px 8px 8px 8px;
     }
@@ -420,27 +427,32 @@ footer ul li {
     article#skills {
         position: relative;
         top: 33em;
-        left: 14vw;
+        left: 0vw;
         display: flex;
-        width: 70vw;
-        height: 37vh;
+        width: 100vw;
+        height: 45vh;
         flex-direction: row;
-        background-color: #00000014;
+        background-color: orange;
         align-items: center;
+        flex-wrap: wrap;
+        align-content: stretch;
         justify-content: space-evenly;
+    }
+
+    #skills h1 {
+        color: black;
     }
 
     #skills img {
         width: 68px;
-        background-color: dimgrey;
-        border-radius: 4px;
+        background-color: #00000030;
+        border-radius: 5px;
         transform: translate(0px, 0px);
     }
 
     #skills>img:hover {
         transform: scale(1.1);
-        background-color: transparent;
-        border-radius: 0px;
+        background-color: orangered;
         border: none;
         transition-duration: 1s;
     }
