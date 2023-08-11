@@ -17,7 +17,7 @@ header {
     width: 100vw;
     z-index: 1;
 }
-
+/* Imagem perfil */
 img.imagem-eu {
     width: 45px;
     height: 7vh;
@@ -25,7 +25,7 @@ img.imagem-eu {
     border-radius: 100%;
     display: inline-block;
 }
-
+/* Meu nome */
 span.nome {
     font: oblique 700 16px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 24.2px;
@@ -38,7 +38,7 @@ span.nome {
     color: orange;
     cursor: pointer;
 }
-
+/* Imagem menu */
 i>img#imagem-menu {
     display: block;
 }
@@ -49,7 +49,7 @@ img#imagem-menu {
     top: -28px;
     cursor: pointer;
 }
-
+/* Menu */
 nav#itens {
     display: none;
     box-shadow: rgba(0, 0, 0, 0.226) 0px 8px 7px -7px;
@@ -86,7 +86,7 @@ ul.menu a {
 .menu a:hover {
     color: orange;
 }
-
+/* Breve descrição */
 section#info-perfil {
     position: absolute;
     top: 8em;
@@ -123,7 +123,7 @@ hr.info {
 .curriculo {
     display: none;
 }
-
+/* Minhas Hard-skills */
 article#skills {
     position: absolute;
     display: flex;
@@ -157,7 +157,7 @@ article#skills {
     border: 5px dashed white;
     box-sizing: border-box;
 }
-
+/* Seção projetos */
 section#projetos {
     position: relative;
     top: 47em;
@@ -202,7 +202,7 @@ b {
 .btp {
     display: none;
 }
-
+/* Blocos projetos */
 picture.prj {
     display: flex;
     flex-wrap: wrap;
@@ -220,7 +220,7 @@ picture.prj {
     font-family: math;
     margin-top: 10px;
 }
-
+/* Botão de links para acesso a projetos */
 button.prjs {
     padding: 10px;
     border-radius: 5px;
@@ -239,7 +239,7 @@ button.prjs {
     text-decoration: none;
     color: black;
 }
-
+/* Rodapé */
 footer {
     background-color: whitesmoke;
     min-height: 40vh;
