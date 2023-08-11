@@ -386,7 +386,7 @@ footer ul li {
         text-decoration: none;
         color: white;
     }
-
+    /* Contatos */
     aside {
         position: absolute;
         top: 14em;
@@ -461,7 +461,7 @@ footer ul li {
         border: none;
         transition-duration: 1s;
     }
-
+    /* Mais conteúdo dos projetos */
     button.btp {
         display: block;
         margin: auto;
