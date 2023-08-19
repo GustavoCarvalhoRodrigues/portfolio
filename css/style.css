@@ -17,6 +17,7 @@ header {
     width: 100vw;
     z-index: 1;
 }
+
 /* Imagem perfil */
 img.imagem-eu {
     width: 45px;
@@ -25,6 +26,7 @@ img.imagem-eu {
     border-radius: 100%;
     display: inline-block;
 }
+
 /* Meu nome */
 span.nome {
     font: oblique 700 16px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -38,6 +40,7 @@ span.nome {
     color: orange;
     cursor: pointer;
 }
+
 /* Imagem menu */
 i>img#imagem-menu {
     display: block;
@@ -49,6 +52,7 @@ img#imagem-menu {
     top: -28px;
     cursor: pointer;
 }
+
 /* Menu */
 nav#itens {
     display: none;
@@ -86,6 +90,7 @@ ul.menu a {
 .menu a:hover {
     color: orange;
 }
+
 /* Breve descrição */
 section#info-perfil {
     position: absolute;
@@ -123,6 +128,7 @@ hr.info {
 .curriculo {
     display: none;
 }
+
 /* Minhas Hard-skills */
 article#skills {
     position: absolute;
@@ -157,6 +163,7 @@ article#skills {
     border: 5px dashed white;
     box-sizing: border-box;
 }
+
 /* Seção projetos */
 section#projetos {
     position: relative;
@@ -202,6 +209,7 @@ b {
 .btp {
     display: none;
 }
+
 /* Blocos projetos */
 picture.prj {
     display: flex;
@@ -220,6 +228,7 @@ picture.prj {
     font-family: math;
     margin-top: 10px;
 }
+
 /* Botão de links para acesso a projetos */
 button.prjs {
     padding: 10px;
@@ -239,6 +248,7 @@ button.prjs {
     text-decoration: none;
     color: black;
 }
+
 /* Rodapé */
 footer {
     background-color: whitesmoke;
@@ -386,6 +396,7 @@ footer ul li {
         text-decoration: none;
         color: white;
     }
+
     /* Contatos */
     aside {
         position: absolute;
@@ -394,7 +405,7 @@ footer ul li {
         border-radius: 3px;
         background-color: white;
         height: 16em;
-        z-index: 1;
+        z-index: 0;
         box-shadow: 21px -16px 72px inset orange;
     }
 
@@ -461,6 +472,7 @@ footer ul li {
         border: none;
         transition-duration: 1s;
     }
+
     /* Mais conteúdo dos projetos */
     button.btp {
         display: block;
