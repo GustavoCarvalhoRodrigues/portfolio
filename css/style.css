@@ -251,7 +251,7 @@ button.prjs {
 
 /* Rodapé */
 footer {
-    background-color: whitesmoke;
+    background-color: orange;
     min-height: 40vh;
     position: relative;
     top: 47em;
@@ -259,8 +259,9 @@ footer {
 
 footer h4 {
     position: absolute;
-    top: 30px;
-    left: 43px;
+    top: 15px;
+    left: 35px;
+    font-size: 1.3em;
 }
 
 footer ul li {
@@ -270,6 +271,35 @@ footer ul li {
     top: 50px;
     left: 30px;
     margin: 5px;
+}
+
+footer h3 {
+    margin: 4em 39px;
+}
+
+footer p {
+    transform: translate(-1px, -52px);
+    margin: 0px 40px 0px 40px;
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+footer hr {
+    color: black;
+    max-width: 90vw;
+    margin: auto;
+    background-color: rgba(255, 68, 0, 0.329);
+}
+
+footer p.copy {
+    text-align: center;
+    margin-top: 89px;
+    font-size: 0.90em;
+}
+
+.copy strong {
+    text-decoration: underline;
+    color: black;
 }
 
 @media screen and (min-width:768px) {
@@ -530,6 +560,42 @@ footer ul li {
     #projetos>picture.prj>p>b {
         text-decoration: none;
         color: coral;
+    }
+
+    footer h4 {
+        position: relative;
+        left: 0px;
+        top: 82px;
+        text-align: center;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        transform: translate(-31px, 42px);
+    }
+
+    footer h3 {
+        transform: translate(10px, -49px);
+    }
+
+    footer p {
+        position: relative;
+        top: -59px;
+        line-height: 1.8em;
+        margin: 0px 63vw 0px 3em;
+    }
+
+    footer hr {
+        background-color: rgba(255, 68, 0, 0.329);
+        display: block;
+        width: 60vw;
+    }
+
+    footer p.copy {
+        transform: translate(24vw, 10px);
+        min-width: 45vw;
     }
 
 }
